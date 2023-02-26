@@ -56,6 +56,7 @@ public class TestServerInfo
     @DataProvider
     public Object[][] codecCombinations()
     {
+
         return new Object[][] {
                 {COMPILER_READ_CODEC, COMPILER_WRITE_CODEC},
                 {COMPILER_READ_CODEC, REFLECTION_WRITE_CODEC},
